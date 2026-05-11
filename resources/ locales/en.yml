@@ -1,1 +1,8 @@
+# resources/locales/en.yml
+title: "The Bible Odyssey"
+level_name_genesis: "Genesis Forest – The Garden"
+voice_of_god_1: "Behold! I am the Lord who made the Garden."
+riddle_water: "What is the source of life?"
+answer_water: "Water"
+moral_choice_share_food: "Do you share food with strangers or keep it for yourself?"
 
