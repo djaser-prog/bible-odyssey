@@ -17,6 +17,10 @@ func _physics_process(delta):
         var nearest_area = get_nearby_area()
         if nearest_area:
             start_swing(nearest_area)
+# In PlayerController.gd or Main.gd
+func _on_LanguageSwitchBtn_pressed():
+    change_language("es")  # Switch to Spanish
+
 
 func start_swing(area: Area2D):
     var direction = area.global_position - position
